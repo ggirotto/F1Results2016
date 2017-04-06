@@ -1,1 +1,1 @@
-Design and images made by: Bianca Saturno - https://www.facebook.com/bianca.saturno?ref=br_rs
+ Design made by [Bianca Saturno](https://www.facebook.com/bianca.saturno?ref=br_rs)
