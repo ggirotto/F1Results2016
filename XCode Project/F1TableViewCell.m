@@ -52,7 +52,7 @@
 -(void)setChampionship:(Championship *)championship{
     
     _championship = championship;
-    self.runnerposition.text = [NSString stringWithFormat:@"%dº", (int)[championship getRunnerPosition:self.runner]];
+    self.runnerposition.text = [NSString stringWithFormat:@"%d", (int)[championship getRunnerPosition:self.runner]];
     self.runnerPoints.text = [NSString stringWithFormat:@"%d", (int)[championship getRunnerPoints:self.runner]];
     
 }
