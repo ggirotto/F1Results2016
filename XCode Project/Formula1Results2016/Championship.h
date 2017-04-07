@@ -22,5 +22,6 @@
 
 -(NSInteger)getRunnerPosition:(Runner *)runner;
 -(NSInteger)getRunnerPoints:(Runner *)runner;
+-(void)sortRunnersByPoints;
 
 @end

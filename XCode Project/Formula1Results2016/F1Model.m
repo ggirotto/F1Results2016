@@ -39,7 +39,7 @@
     runnerPhoto = [UIImage imageNamed:@"3"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_3"];
     
-    Runner *danielRicciardo = [[Runner alloc]initWithName:@"Daniel Ricciardo" andTeam:@"RBR" andAge:27 andNacionality:@"Austrália" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:47 andPodiums:18 andPoles:69 andWithFastestRoutes:14];
+    Runner *danielRicciardo = [[Runner alloc]initWithName:@"Daniel Ricciardo" andTeam:@"RBR" andAge:27 andNacionality:@"Austrália" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:4 andPodiums:18 andPoles:1 andWithFastestRoutes:8];
     
     runnerPhoto = [UIImage imageNamed:@"4"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_4"];
@@ -59,7 +59,7 @@
     runnerPhoto = [UIImage imageNamed:@"7"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_7"];
     
-    Runner *sergioPerez = [[Runner alloc]initWithName:@"Sergio Perez" andTeam:@"FIN" andAge:25 andNacionality:@"México" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:7 andPoles:0 andWithFastestRoutes:3];
+    Runner *sergioPerez = [[Runner alloc]initWithName:@"Sergio Perez" andTeam:@"FIN" andAge:27 andNacionality:@"México" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:7 andPoles:0 andWithFastestRoutes:3];
     
     runnerPhoto = [UIImage imageNamed:@"8"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_8"];
@@ -69,12 +69,12 @@
     runnerPhoto = [UIImage imageNamed:@"9"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_9"];
     
-    Runner *nicoHulkenberg = [[Runner alloc]initWithName:@"Nico Hulkenberg" andTeam:@"FIN" andAge:27 andNacionality:@"Alemanha" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:53 andPodiums:18 andPoles:69 andWithFastestRoutes:14];
+    Runner *nicoHulkenberg = [[Runner alloc]initWithName:@"Nico Hulkenberg" andTeam:@"FIN" andAge:29 andNacionality:@"Alemanha" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:1 andWithFastestRoutes:2];
     
     runnerPhoto = [UIImage imageNamed:@"10"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_10"];
     
-    Runner *fernandoAlonso = [[Runner alloc]initWithName:@"Fernando Alonso" andTeam:@"MCLaren" andAge:35 andNacionality:@"Espanha" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:30 andWins:33 andPodiums:13 andPoles:39 andWithFastestRoutes:34];
+    Runner *fernandoAlonso = [[Runner alloc]initWithName:@"Fernando Alonso" andTeam:@"MCLaren" andAge:35 andNacionality:@"Espanha" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:2 andWins:32 andPodiums:97 andPoles:22 andWithFastestRoutes:22];
     
     runnerPhoto = [UIImage imageNamed:@"11"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_11"];
@@ -89,7 +89,7 @@
     runnerPhoto = [UIImage imageNamed:@"13"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_13"];
     
-    Runner *romainGrosjean = [[Runner alloc]initWithName:@"Romain Grosjean" andTeam:@"Haas" andAge:35 andNacionality:@"Brasil" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:10 andPoles:0 andWithFastestRoutes:1];
+    Runner *romainGrosjean = [[Runner alloc]initWithName:@"Romain Grosjean" andTeam:@"Haas" andAge:30 andNacionality:@"Brasil" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:10 andPoles:0 andWithFastestRoutes:1];
     
     runnerPhoto = [UIImage imageNamed:@"14"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_14"];
@@ -104,7 +104,7 @@
     runnerPhoto = [UIImage imageNamed:@"16"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_16"];
     
-    Runner *kevinMagnussen = [[Runner alloc]initWithName:@"Kevin Magnussen" andTeam:@"Renault" andAge:24 andNacionality:@"Dinamarca" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:1 andWithFastestRoutes:0];
+    Runner *kevinMagnussen = [[Runner alloc]initWithName:@"Kevin Magnussen" andTeam:@"Renault" andAge:24 andNacionality:@"Dinamarca" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:1 andPoles:0 andWithFastestRoutes:0];
     
     runnerPhoto = [UIImage imageNamed:@"17"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_17"];
@@ -129,7 +129,7 @@
     runnerPhoto = [UIImage imageNamed:@"21"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_21"];
     
-    Runner *estebanGutierrez = [[Runner alloc]initWithName:@"Esteban Gutiérrez" andTeam:@"Haas" andAge:25 andNacionality:@"-" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:0 andWithFastestRoutes:0];
+    Runner *estebanGutierrez = [[Runner alloc]initWithName:@"Esteban Gutiérrez" andTeam:@"Haas" andAge:25 andNacionality:@"México" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:0 andWithFastestRoutes:0];
     
     runnerPhoto = [UIImage imageNamed:@"22"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_22"];
@@ -144,7 +144,7 @@
     runnerPhoto = [UIImage imageNamed:@"24"];
     runnerGiantPhoto = [UIImage imageNamed:@"avatar_24"];
     
-    Runner *rioHaryanto = [[Runner alloc]initWithName:@"Rio Haryanto" andTeam:@"Manor" andAge:24 andNacionality:@"-" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:0 andWithFastestRoutes:0];
+    Runner *rioHaryanto = [[Runner alloc]initWithName:@"Rio Haryanto" andTeam:@"Manor" andAge:24 andNacionality:@"Indonésia" andGiantPhoto:runnerGiantPhoto andPhoto:runnerPhoto andTitles:0 andWins:0 andPodiums:0 andPoles:0 andWithFastestRoutes:0];
     
     
     
@@ -158,24 +158,22 @@
     [self.formulaUm addRunnerToChampionship:valtteriBottas withPoints:85];
     [self.formulaUm addRunnerToChampionship:nicoHulkenberg withPoints:72];
     [self.formulaUm addRunnerToChampionship:fernandoAlonso withPoints:54];
-    
     [self.formulaUm addRunnerToChampionship:felipeMassa withPoints:53];
-    
     [self.formulaUm addRunnerToChampionship:carlosSainz withPoints:46];
-    
     [self.formulaUm addRunnerToChampionship:romainGrosjean withPoints:29];
-    
     [self.formulaUm addRunnerToChampionship:daniilKvyat withPoints:25];
-//    [self.formulaUm addRunnerToChampionship:jensonButton withPoints:21];
-//    [self.formulaUm addRunnerToChampionship:kevinMagnussen withPoints:7];
-//    [self.formulaUm addRunnerToChampionship:felipeNasr withPoints:2];
-//    [self.formulaUm addRunnerToChampionship:jolyonPalmer withPoints:1];
-//    [self.formulaUm addRunnerToChampionship:pascalWehrlen withPoints:3];
-//    [self.formulaUm addRunnerToChampionship:stoffelVandoorne withPoints:4];
-//    [self.formulaUm addRunnerToChampionship:estebanGutierrez withPoints:5];
-//    [self.formulaUm addRunnerToChampionship:marcusEricsson withPoints:6];
-//    [self.formulaUm addRunnerToChampionship:estebanOcon withPoints:7];
-//    [self.formulaUm addRunnerToChampionship:rioHaryanto withPoints:8];
+    [self.formulaUm addRunnerToChampionship:jensonButton withPoints:21];
+    [self.formulaUm addRunnerToChampionship:kevinMagnussen withPoints:7];
+    [self.formulaUm addRunnerToChampionship:felipeNasr withPoints:2];
+    [self.formulaUm addRunnerToChampionship:jolyonPalmer withPoints:1];
+    [self.formulaUm addRunnerToChampionship:pascalWehrlen withPoints:1];
+    [self.formulaUm addRunnerToChampionship:stoffelVandoorne withPoints:1];
+    [self.formulaUm addRunnerToChampionship:estebanGutierrez withPoints:0];
+    [self.formulaUm addRunnerToChampionship:marcusEricsson withPoints:0];
+    [self.formulaUm addRunnerToChampionship:estebanOcon withPoints:0];
+    [self.formulaUm addRunnerToChampionship:rioHaryanto withPoints:0];
+    
+    [self.formulaUm sortRunnersByPoints];
     
     
     

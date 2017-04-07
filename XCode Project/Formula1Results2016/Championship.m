@@ -42,9 +42,13 @@
 
 -(NSInteger)getRunnerPosition:(Runner *)runner{
     
-    NSMutableArray *runnersSorted = [self quickSort:self.runners.copy];
+    return [self.runners indexOfObject:runner]+1;
     
-    return [runnersSorted indexOfObject:runner]+1;
+}
+
+-(void)sortRunnersByPoints{
+    
+    self.runners = [self quickSort:self.runners.copy];
     
 }
 
@@ -61,7 +65,10 @@
     NSMutableArray* moreArray = [[NSMutableArray alloc] initWithCapacity:numberOfElements];
     
     for (Runner* runner in unsortedArray) {
-        if([self.points valueForKey:runner.name] > [self.points valueForKey:pivotValue.name]){
+        if([self.points valueForKey:runner.name] >= [self.points valueForKey:pivotValue.name]){
+            if([runner.name isEqualToString:pivotValue.name]){
+                continue;
+            }
             [lessArray addObject:runner];
         } else if([self.points valueForKey:runner.name] < [self.points valueForKey:pivotValue.name]){
             [moreArray addObject:runner];
